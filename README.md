@@ -1,6 +1,9 @@
-![](https://github.com/laizhenxing/sqlx-db-tester/workflows/build/badge.svg)
+![](https://github.com/laizhenxing/xsqlx-db-tester/workflows/build/badge.svg)
 
-# sqlx-db-tester
+# Source
+This project learns from: https://github.com/tyrchen/sqlx-db-tester/tree/master
+
+# xsqlx-db-tester
 
 This a tool test sqlx with postgres. It only support tokio runtime in this moment.
 

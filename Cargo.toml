@@ -1,12 +1,12 @@
 [package]
-name = "sqlx-db-tester"
+name = "xsqlx-db-tester"
 version = "0.1.0"
 authors = ["xingxiaoli"]
 edition = "2021"
 license = "MIT"
 documentation = "https://docs.rs/"
-repository = "https://github.com/laizhenxing/sqlx-db-tester"
-homepage = "https://github.com/laizhenxing/sqlx-db-tester"
+repository = "https://github.com/laizhenxing/xsqlx-db-tester"
+homepage = "https://github.com/laizhenxing/xsqlx-db-tester"
 description = "A simple tool to test sqlx database, it automatically create and drop database when the test create and drop."
 
 readme = "README.md"
