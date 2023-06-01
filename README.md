@@ -1,4 +1,4 @@
-![](https://github.com/laizhenxing/rust-lib-template/workflows/build/badge.svg)
+![](https://github.com/laizhenxing/sqlx-db-tester/workflows/build/badge.svg)
 
 # sqlx-db-tester
 
