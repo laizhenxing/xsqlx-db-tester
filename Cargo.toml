@@ -1,0 +1,20 @@
+[package]
+name = "sqlx-db-tester"
+version = "0.1.0"
+authors = ["xingxiaoli"]
+edition = "2021"
+license = "MIT"
+documentation = "https://docs.rs/"
+repository = "https://github.com/laizhenxing/sqlx-db-tester"
+homepage = "https://github.com/laizhenxing/sqlx-db-tester"
+description = "A simple tool to test sqlx database, it automatically create and drop database when the test create and drop."
+
+readme = "README.md"
+categories = ["development-tools"]
+keywords = ["sqlx", "postgres", "test", "database"]
+
+[dependencies]
+anyhow = "1.0.71"
+sqlx = { version = "0.6.3", features = ["runtime-tokio-rustls", "postgres"] }
+tokio = { version = "1.28.2", features = ["macros", "rt", "rt-multi-thread"] }
+uuid = { version = "1.3.3", features = ["v4"] }
