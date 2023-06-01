@@ -9,7 +9,7 @@ This a tool test sqlx with postgres. It only support tokio runtime in this momen
 
 ## How to use it
 
-You should first create TestDB data structure in your tests. It will automcatically create a database and a connection pool for you. you cound then get the connection string or connection pool from it to use on your own code. **When TestDB gets drop, it will automcatically drop the database.**
+You should first create TestDB data structure in your tests. It will automcatically create a database and a connection pool for you. Then you could get the connection string or connection pool from it to use on your own code. **When TestDB gets drop, it will automcatically drop the database.**
 
 ```bash
 #[tokio::test]
@@ -26,8 +26,4 @@ Have fun with this crate!
 
 ## License
 
-This project is distributed under the terms of MIT.
-
-See [LICENSE](LICENSE.md) for details.
-
-Copyright 2023 xingxiaoli 
+This project is distributed under the terms of [MIT license](LICENSE).
