@@ -66,7 +66,7 @@ impl Drop for TestDB {
             let rt = Runtime::new().unwrap();
             rt.block_on(async move {
                 let mut conn = PgConnection::connect(&url).await.unwrap();
-                // terminate all other connections。关闭数据库连接
+                // terminate all other connections
                 sqlx::query(&format!(
                     r#"SELECT pg_terminate_backend(pid) FROM pg_stat_activity
                     WHERE pid <> pg_backend_pid() AND datname = '{}'"#,
